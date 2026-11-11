@@ -19,7 +19,9 @@ st.markdown(
         padding: 1.8rem 2rem;
         margin-bottom: 1.5rem;
         border-radius: 20px;
-        color: #333333;
+        color: white;
+        background: linear-gradient(110deg, #124e78, #168a8a);
+        box-shadow: 0 10px 28px rgba(18, 78, 120, 0.18);
     }
     .hero h1 {
         margin: 0;
@@ -32,7 +34,8 @@ st.markdown(
     }
     div[data-testid="stVerticalBlockBorderWrapper"] {
         border-radius: 16px;
-        border: 1px solid #333333;
+        background: rgba(255, 255, 255, 0.86);
+        border: 1px solid rgba(49, 51, 63, 0.2);
     }
     div[data-testid="stVerticalBlockBorderWrapper"] h2,
     div[data-testid="stVerticalBlockBorderWrapper"] label,
@@ -46,14 +49,14 @@ st.markdown(
         border: 0;
         border-radius: 12px;
         color: white;
-        background: #333333;
+        background: linear-gradient(90deg, #127c83, #176b9b);
         font-size: 1.05rem;
         font-weight: 700;
     }
     div.stButton > button:hover {
         color: white;
         border: 0;
-        background: #333333;
+        background: linear-gradient(90deg, #0d6970, #125b87);
     }
     </style>
     """,
